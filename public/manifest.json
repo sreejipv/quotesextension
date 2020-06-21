@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "My Extension",
+  "description": "This extension is a starting point to create a real Chrome extension",
+  "version": "0.0.1",
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+},
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-2AGW8U+Vzt1zDScO86b7w30IyXhJCIP+Yhzh/Uke5EU='; object-src 'self'",  "permissions": [
+  ]
+}
